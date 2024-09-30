@@ -18,38 +18,36 @@ import { Description } from "@radix-ui/react-dialog";
 
 const projectData = [
   {
-    image: "/work/3.png",
-    category: "react js",
-    name: "Nexa Website",
-    description:
-      "It is a website for Nexa, it is basically a studying app online.",
+    image: "/work/TDMS_1.png",
+    category: "ReactJS",
+    name: "Talent Management System",
+    description: "It is a system for Del Monte Philippines Inc. (Bugo Cannery)",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "react js",
-    name: "Andrea Website",
-    description:
-      "It is a website for Andrea, it is basically a studying app online.",
+    image: "/work/design.png",
+    category: "flutter",
+    name: "Design Thinking Mobile App",
+    description: "It is a mobile application for Phinma Education Network",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/2.png",
-    category: "next js",
-    name: "Mirah Website",
+    image: "/work/Attdenadance.png",
+    category: "ReactJS",
+    name: "Attendance Monitoring System",
     description:
-      "It is a website for Mirah, it is basically a studying app online.",
+      "It is a mobile and web base application that can monitor the attendance of the students during an event.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/1.png",
-    category: "Application",
-    name: "Angelo Website",
+    image: "/work/SM Store.png",
+    category: "ReactJS",
+    name: "Super Market (SM) Sales and Inventory System",
     description:
-      "It is a website for Angelo, it is basically a studying app online.",
+      "It is a web based for Super Market (SM) Point of Sales System.",
     link: "/",
     github: "/",
   },

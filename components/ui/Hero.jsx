@@ -53,15 +53,15 @@ const Hero = () => {
           <div className="hidden xl:flex relative">
             {/* Badge 1 */}
             <Badge
-              containerStyles="absolute top-[0] -left-[15rem]"
+              containerStyles="absolute top-[30] -left-[15rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={3}
-              endCountText="rd"
+              endCountNum={4}
+              endCountText="th"
               badgeText="Year College"
             />
             {/* Badge 2 */}
             <Badge
-              containerStyles="absolute top-[75%] -left-[17rem]"
+              containerStyles="absolute top-[60%] -left-[15rem]"
               icon={<RiInformationFill />}
               endCountNum={"1"}
               endCountText="T"
@@ -69,16 +69,16 @@ const Hero = () => {
             />
             {/* Badge 3 */}
             <Badge
-              containerStyles="absolute top-[61%] -right-12"
+              containerStyles="absolute top-[61%] -right-8"
               icon={<RiTeamFill />}
               endCountNum={10}
               endCountText=""
               badgeText="Finish Projects"
             />
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 right-2"></div>
             <DevImg
-              containerStyles=" w-[350px] h-[470px] bg-no-repeat relative bg-bottom bp-top -left-[6rem] absolute top-[5%]"
-              imgSrc="/about/IDpic2.png"
+              containerStyles="flex w-[420px] h-[450px] bg-no-repeat relative bg-cover absolute top-[2%] right-20"
+              imgSrc="/about/Keket.png"
+              borderStyle="border-4 border-primary"
             />
           </div>
         </div>

@@ -19,21 +19,21 @@ import { Pagination } from "swiper/modules";
 
 const reviewsData = [
   {
-    avatar: "/reviews/avatar-1.png",
+    avatar: "/reviews/Andrew_Pic.png",
     name: "Andrew Talaboc",
-    job: "Software Engineer",
+    job: "Full Stack Developer",
     review: "It is worth it and beautiful",
   },
   {
-    avatar: "/reviews/avatar-2.png",
+    avatar: "/reviews/Mirah_Pic.png",
     name: "Mirah Mea Aguilar",
-    job: "Alter (Twitter)",
+    job: "Frontend Developer",
     review: "It is worth it and beautiful",
   },
   {
-    avatar: "/reviews/avatar-3.png",
+    avatar: "/reviews/Angelo_Pic.png",
     name: "Angelo Serafino",
-    job: "Computer Engineer",
+    job: "Full Stack Developer",
     review: "It is worth it and beautiful",
   },
   {

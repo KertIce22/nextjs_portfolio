@@ -48,17 +48,17 @@ const qualificationData = [
       {
         university: "PHINMA Cagayan de Oro College",
         qualification: "BS in Information Technology",
-        year: "2019 - 2025",
+        year: "2021 - 2025",
       },
       {
         university: "Pilgrim Christian College",
         qualification: "TVL Information and Communication Technologies",
-        year: "2018- 2019",
+        year: "2019- 2021",
       },
       {
         university: "Sixto A. Abao National High School",
         qualification: "Junior",
-        year: "2013 - 2018",
+        year: "2014 - 2019",
       },
       {
         university: "Hubangon Elementary School",
@@ -89,20 +89,20 @@ const skillData = [
     title: "Skills",
     data: [
       {
-        name: "HTML, CSS, JAVACRIPT",
+        name: "Web Development",
       },
       {
-        name: "NEXTJS, FLUTTER",
+        name: "App Development",
       },
 
       {
-        name: "PHP, BACKEND DEVELOPMENT",
+        name: "Game Development",
       },
       {
-        name: "CANVA, PHOTOSHOP",
+        name: "Quality Assurance",
       },
       {
-        name: "UNITY, ASEPRITE",
+        name: "UI/UX",
       },
     ],
   },
@@ -110,17 +110,20 @@ const skillData = [
     title: "Tools",
     data: [
       {
-        imgPath: "/about/vscode.svg",
+        imgPath: "/about/vscode_icon.png",
       },
       {
-        imgPath: "/about/figma.svg",
+        imgPath: "/about/canva_icon.png",
       },
 
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/figma_icon.png",
       },
       {
-        imgPath: "/about/wordpress.svg",
+        imgPath: "/about/unity_icon.png",
+      },
+      {
+        imgPath: "/about/aseprite_icon.png",
       },
     ],
   },
@@ -140,10 +143,10 @@ const About = () => {
         <div className="flex flex-col xl:flex-row">
           {/* Image */}
           <div className="hidden xl:flex flex-1 relative">
-            <div className="bg-about_shape_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 left-2"></div>
+            <div className="w-[500px] h-[500px] bg-no-repeat absolute -top-1 left-2 rounded-full border-4 border-green-700"></div>
             <DevImg
-              containerStyles=" w-[350px] h-[470px] bg-no-repeat relative bg-bottom bp-top -right-[8rem] absolute top-[9%]"
-              imgSrc="/about/IDpic2.png"
+              containerStyles=" w-[550px] h-[580px] bg-no-repeat relative bg-bottom bp-top left-[0.2rem] absolute top-[4%]"
+              imgSrc="/about/Keket.png"
             />
           </div>
           {/* tabs */}
@@ -169,11 +172,11 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Future Developer, Specialty - Backend
+                      Future Developer, Specialty - Frontend & UI/UX
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I am more on backend and I also prefer in FLUTTER. I used
-                      PHP on backend and I have knowledge in NextJS.
+                      I specialize in frontend development and design, with a
+                      preference for working in React and Flutter.
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -191,15 +194,18 @@ const About = () => {
                     </div>
                     {/* languages */}
                     <div className="flex flex-col gap-y-2">
-                      <div className="text-primary">Language Skill</div>
+                      <div className="text-primary">Programming Languages</div>
                       <div className="border-b border-border"></div>
-                      <div>English, Tagalog, Korean, Japanese, Bisaya</div>
+                      <div>
+                        HTML | CSS | JAVASCRIPT | REACT | FLUTTER | PHP | MySQL
+                        | CANVA | FIGMA | UNITY | ASEPRITE
+                      </div>
                     </div>
                   </div>
                 </TabsContent>
                 {/* qualification */}
                 <TabsContent value="qualifications">
-                  <div>
+                  <div className="mt-12">
                     <h3 className="h3 mb-8 text-center xl:text-left">
                       My Journey
                     </h3>
@@ -287,10 +293,14 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Tools I am Expert with:</h3>
+                    <h3 className="h4 mb-8">
+                      Technical skills and tools I am expert with:
+                    </h3>
                     {/* skills */}
                     <div className="mb-16">
-                      <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                      <h4 className="text-xl font-semibold mb-2 text-green-600">
+                        Technical Skills
+                      </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* skill list */}
                       <div>
@@ -311,7 +321,7 @@ const About = () => {
                     </div>
                     {/* tools */}
                     <div>
-                      <h4 className="text-xl font-semibold mb-2 xl:text-left">
+                      <h4 className="text-xl font-semibold mb-2 xl:text-left text-green-600">
                         Tools
                       </h4>
                       <div className="border-b border-border mb-4"></div>

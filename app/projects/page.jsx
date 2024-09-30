@@ -6,83 +6,90 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/TDMS_1.png",
     category: "react js",
-    name: "Nexa Website",
-    description:
-      "It is a website for Nexa, it is basically a studying app online.",
+    name: "Talent Management System",
+    description: "It is a system for Del Monte Philippines Inc. (Bugo Cannery)",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/4.png",
+    image: "/work/design.png",
+    category: "Flutter",
+    name: "Design Thinking App",
+    description: "It is a mobile application for Phinma Education Network.",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/Attdenadance.png",
     category: "react js",
-    name: "Andrea Website",
+    name: "Attendance Monitoring System",
     description:
-      "It is a website for Andrea, it is basically a studying app online.",
+      "It is a mobile and web base application that can monitor the attendance of the students during an event.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/2.png",
-    category: "next js",
-    name: "Mirah Website",
+    image: "/work/registration.png",
+    category: "HTML",
+    name: "Registration Form With QR CODE",
     description:
-      "It is a website for Mirah, it is basically a studying app online.",
+      "It is a website that helps other people to automate the process of registration form.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/1.png",
-    category: "Application",
-    name: "Angelo Website",
+    image: "/work/virus.png",
+    category: "Unity",
+    name: "Virus Game",
     description:
-      "It is a website for Angelo, it is basically a studying app online.",
+      "The game revolves around the spread, control, and eradication of infectious viruses. The theme of the game is inspired on COVID19 Virus.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/3.png",
-    category: "next js",
-    name: "Kizzy Website",
+    image: "/work/SM Store.png",
+    category: "react js",
+    name: "Sales and Inventory System",
     description:
-      "It is a website for Kizzy, it is basically a studying app online.",
+      "It is a web based for Super Market (SM) Point of Sales System.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "next js",
-    name: "Shadrina Website",
+    image: "/work/ordering.png",
+    category: "Flutter",
+    name: "Ordering Mobile Application",
     description:
-      "It is a website for Shadrina, it is basically a studying app online.",
+      "It is a ordering system in mobile application and it inspired by Pizza Hut",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/3.png",
-    category: "fullstack",
-    name: "Anadyl Website",
+    image: "/work/payroll.png",
+    category: "react js",
+    name: "Payroll Calculator",
     description:
-      "It is a website for Anadyl, it is basically a studying app online.",
+      "It is a web application that can easily calculate the deduction.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/1.png",
-    category: "fullstack",
-    name: "Joel Website",
+    image: "/work/event.png",
+    category: "HTML",
+    name: "Event Management System",
     description:
-      "It is a website for Joel, it is basically a studying app online.",
+      "It is a website for the teacher or organizer to manage the event through automate process.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/2.png",
-    category: "Application",
-    name: "Faith Website",
+    image: "/work/math.png",
+    category: "Flutter",
+    name: "Math for Kids Game",
     description:
-      "It is a website for Faith, it is basically a studying app online.",
+      "It is a game for the kids and it contain basic addition, subtraction, multiplication, and division.",
     link: "/",
     github: "/",
   },
@@ -115,7 +122,7 @@ const Projects = () => {
         </h2>
         {/* tabs */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+          <TabsList className="w-full grid h-full md:grid-cols-5 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
